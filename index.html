@@ -11,14 +11,61 @@
                 <h2>Form Testing by Niall McNulty</h2><br>
                     <img src="pictures/keele.png" style="width:100%;height:auto;">
                     <p>Below is an assortment of different forms. Purely as an exercise to test and practice HTML!</p>
-                    <h4>
-                        <form>
-                            <label for="fname">First Name:</label>
-                            <input type="text" id="fname" name="fname"><br>
-                            <label for="lname">Last Name:</label>
-                            <input type="text" id="lname" name="lname"><br>
-                        </form>
-                    </h4>
+                    <div>
+                        <p>
+                            Please enter your first and last name
+                        </p>
+                        <h4>
+                            <form>
+                                <label for="fname">First Name: </label>
+                                <input type="text" id="fname" name="fname"><br><br>
+                                <label for="lname">Last Name: </label>
+                                <input type="text" id="lname" name="lname">
+                            </form>
+                        </h4>
+                    </div>
+                    <div>
+                        <h4>
+                            <form>
+                                <label for="email">Enter your age: </label>
+                                <input type="num" name="age" min="1" max="100" step="1">
+                            </form>
+                        </h4>
+                    </div>
+                    <div>
+                        <h4>
+                            
+                            <form>
+                                <p> Enter your DOB</p>
+                                <label for="birthday">DOB: </label>
+                                <input type="date" id="birthday" name="birthday">
+                            </form>
+                        </h4>
+                    </div>
+                    <div>
+                        <h4>
+                            <form>
+                                <p> 
+                                    Please enter your Keele login details 
+                                </p><br>
+                                <label for="username">Username: </label>
+                                <input type="text" id="username" name="username" placeholder="'Enter Keele Username'"><br><br>
+                                <label for="pwd">Password: </label>
+                                <input type="password" id="pwd" name="pwd", pattern ="[a-z][0-9][a-z][0-9]{2}">
+                            </form>
+                        </h4>
+                    </div>
+                    <div>
+                        <h4>
+                            <form>
+                                <p> Please enter your keele email address </p>
+                                <label for ="email">Email: </label>
+                                <input type="email" name="email" placeholder="example@students.keele.ac.uk">
+                            </form>
+
+                        </h4>
+                    </div>
+                   
             </center>
             
         </div>
