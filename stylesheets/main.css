@@ -1,13 +1,13 @@
 * {
-background-color: #424e83;
+background-color: #a4a5aa;
 }
 
 .container {
-    width: 200px;
+    width: 500px;
     clear: both;
   }
   
   .container input {
-    width: 30%;
+    width: 100%;
     clear: both;
   }
