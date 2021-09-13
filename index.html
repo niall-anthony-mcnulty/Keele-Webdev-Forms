@@ -13,32 +13,26 @@
         <main>
             <div >
                 <img src="pictures/keele.png" style="max-width:100%;height:auto;">
-                <p>Below is an assortment of different forms. Purely as an exercise to test and practice HTML!</p>
                 <form>
-                    <label for="fname">First Name: </label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                    <label for="lname">Last Name: </label>
-                    <input type="text" id="lname" name="lname">
-                </form>
-                <form>
-                    <label for="email">Enter your age: </label>
-                    <input type="num" name="age" min="1" max="100" step="1">
-                </form>
-                <form>
-                    <label for="birthday">DOB: </label>
-                    <input type="date" id="birthday" name="birthday">
-                </form>
-                <form>
-                    <label for="username">Username: </label>
-                    <input type="text" id="username" name="username"><br><br>
-                    <label for="pwd">Password: </label>
-                    <input type="password" id="pwd" name="pwd", pattern ="[a-z][0-9][a-z][0-9]{2}">
-                </form>
-                <form>
-                    <label for ="email">Email: </label>
-                    <input type="email" name="email" placeholder="example@students.keele.ac.uk">
+                    <fieldset>
+                        <legend> Fill out the form below </legend>
+                        <label for="fname">First Name: </label>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last Name: </label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="email">Enter your age: </label><br>
+                        <input type="num" name="age" min="1" max="100" step="1"><br><br>
+                        <label for="birthday">DOB: </label><br>
+                        <input type="date" id="birthday" name="birthday"><br><br>
+                        <label for="username">Username: </label><br>
+                        <input type="text" id="username" name="username"><br>
+                        <label for="pwd">Password: </label><br>
+                        <input type="password" id="pwd" name="pwd", pattern ="[a-z][0-9][a-z][0-9]{2}"><br><br>
+                        <label for ="email">Email: </label><br>
+                        <input type="email" name="email" placeholder="example@students.keele.ac.uk"><br><br>
+                    </fieldset>
                 </form>         
-        </div>
+            </div>
         </main>  
     </body>
 </html>
