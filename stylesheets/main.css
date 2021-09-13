@@ -34,7 +34,7 @@ label {
 }
 input {
     font-size: inherit;
-    display:inline-block;
+    display:block;
     text-align:left;
     width: 50%;
 }
