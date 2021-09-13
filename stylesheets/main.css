@@ -44,7 +44,7 @@ legend {
     padding-top: 30px;
     font-size:medium;
     font-style:italic;
-    display:inline-block;
-    text-align:left;
+    display:block;
+    text-align:right;
     
 }
