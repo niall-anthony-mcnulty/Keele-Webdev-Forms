@@ -13,6 +13,11 @@ body {
 
 }
 
+img {
+    width:50%;
+    height:auto;
+}
+
 h1 { 
     font-size:large;
     padding-top:50px ;
@@ -43,5 +48,7 @@ legend {
     padding-top: 30px;
     font-size:medium;
     font-style:italic;
+    display:inline-block;
+    text-align:left;
     
 }
