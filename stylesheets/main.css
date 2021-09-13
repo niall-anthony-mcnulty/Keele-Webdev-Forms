@@ -39,7 +39,7 @@ input {
     font-size: inherit;
     display:inline-block;
     text-align:left;
-    width:20pc;
+    width:15pc;
 }
 
 legend {
@@ -47,6 +47,10 @@ legend {
     padding-top: 40px;
     font-size:larger;
     font-style:italic;  
-    width: 70px;
+    width: 200px;
     margin-left: calc(50% - 35px - 8px);
+}
+
+.birthday { 
+    width: 50px;
 }
