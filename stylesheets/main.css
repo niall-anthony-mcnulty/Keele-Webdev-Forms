@@ -2,12 +2,14 @@
 body {
     
     background-image: url("../pictures/form-picture.jpeg");
+    backdrop-filter: blur(5px);
     font-family: Calibri;
     color: hsl(0, 11%, 87%);
+    margin:0 auto;
 }
 
 h1 { 
-    font-size:medium;
+    font-size:large;
     padding-top:50px ;
 }
 
