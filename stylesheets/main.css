@@ -1,9 +1,16 @@
 
 body {
+    
     background-image: url("../pictures/form-picture.jpeg");
-    font-family: Helvetica;
-    color: #e2dbdb;
+    font-family: Calibri;
+    color: hsl(0, 11%, 87%);
 }
+
+h1 { 
+    font-size:medium;
+    padding-top:50px ;
+}
+
 fieldset {
     background-color:transparent;
     border:none;
@@ -16,10 +23,17 @@ label {
     cursor:pointer;
     display:inline-block;
     padding: 3px 6px;
-    text-align: right;
+    text-align: middle;
     width: 150px;
     vertical-align: top;
 }
 input {
     font-size: inherit;
+}
+
+legend {
+    padding-top: 100px;
+    font-size:medium;
+    font-style:unset;
+    
 }
