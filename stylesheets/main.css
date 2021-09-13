@@ -36,14 +36,12 @@ input {
     font-size: inherit;
     display:inline-block;
     text-align:left;
+    width: 50%;
 }
 
 legend {
     padding-bottom: 30px;
     padding-top: 30px;
-    font-size:large;
-    font-style:italic;
-    display:block;
-    text-align:middle;
-    
+    font-size:larger;
+    font-style:italic;  
 }
