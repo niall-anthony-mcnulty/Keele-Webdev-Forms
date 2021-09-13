@@ -6,6 +6,9 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+form {
+    width: 50%;
+}
 img {
     width:200px;
     height:300px;
@@ -34,7 +37,7 @@ label {
 }
 input {
     font-size: inherit;
-    display:block;
+    display:inline-block;
     text-align:left;
     width:20pc;
 }
@@ -44,5 +47,6 @@ legend {
     padding-top: 40px;
     font-size:larger;
     font-style:italic;  
-    text-align: middle;
+    width: 70px;
+    margin-left: calc(50% - 35px - 8px);
 }
