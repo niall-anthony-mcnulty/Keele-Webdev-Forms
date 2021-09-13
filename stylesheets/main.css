@@ -1,6 +1,8 @@
 
 body {
     background-image: url("pictures/form-picture.jpeg");
+    font-family: Helvetica, Sans-Serif;
+    color: #e2dbdb;
 }
 fieldset{
     background-color:transparent;
