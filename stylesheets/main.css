@@ -7,7 +7,7 @@ body {
 }
 
 form {
-    width: 50%;
+    width: calc(50%-50px);
 }
 img {
     width:200px;
@@ -52,5 +52,5 @@ legend {
 }
 
 .birthday { 
-    width: 50px;
+    width: 100px;
 }
