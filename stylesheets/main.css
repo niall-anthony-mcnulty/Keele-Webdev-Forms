@@ -7,7 +7,7 @@ body {
 }
 
 form {
-    width: 50%;
+    width: 50%;   
 }
 img {
     width:200px;
@@ -32,14 +32,10 @@ label {
     padding: 3px 6px;
     text-align: right;
     width: 150px;
-    vertical-align: top;
-    align-content: left;
 }
 input {
     font-size: inherit;
     display:inline-block;
-    text-align:left;
-    align-content: left;
     width:15pc;
 }
 
@@ -53,5 +49,5 @@ legend {
 }
 
 .birthday { 
-    width: 125px;
+    width: 130px;
 }
