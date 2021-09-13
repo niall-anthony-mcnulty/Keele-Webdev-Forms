@@ -37,6 +37,8 @@ label {
 }
 input {
     font-size: inherit;
+    display:inline-block;
+    text-align:left;
 }
 
 legend {
