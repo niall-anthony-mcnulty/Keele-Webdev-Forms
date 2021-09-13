@@ -1,10 +1,10 @@
 
 body {
-    background-image: url("pictures/form-picture.jpeg");
-    font-family: Helvetica, Sans-Serif;
+    background-image: url("../pictures/form-picture.jpeg");
+    font-family: Helvetica;
     color: #e2dbdb;
 }
-fieldset{
+fieldset {
     background-color:transparent;
     border:none;
     border-radius: 2px;
