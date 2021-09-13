@@ -36,6 +36,7 @@ input {
     font-size: inherit;
     display:inline-block;
     text-align:left;
+    width: 50%;
 }
 
 legend {
