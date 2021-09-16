@@ -118,5 +118,5 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 .checkbox-social {
-    display:inline-block;
+    display:block;
 }
