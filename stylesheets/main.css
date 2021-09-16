@@ -1,53 +1,43 @@
 
 body {
-    
-    background-color: rgba(35, 120, 153, 0.651);
-    font-family: Calibri;
-    color: hsl(0, 0%, 100%);
+    background-color:coral;
+    color:azure; 
+    font-family: 'Bellota',cursive;
+    font-weight: 350;
+    display:block;
+    font-style: italic;
+    margin:0%;
 }
 
-form {
-    width: 50%;   
-}
-img {
-    width:200px;
-    height:300px;
+.container {
+    max-width:100%;
 }
 
-h1 { 
-    padding-top:50px ;
-}
-
-fieldset {
-    background-color:transparent;
-    border:none;
-    border-radius: 2px;
-    margin-bottom: 12px;
-    overflow:hidden;
-    padding: 0.625em;
-}
-label {
-    cursor:pointer;
-    display:inline-block;
-    padding: 3px 6px;
-    text-align: right;
-    width: 150px;
-}
-input {
-    font-size: inherit;
-    display:inline-block;
-    width:15pc;
-}
-
-legend {
-    padding-bottom: 30px;
-    padding-top: 40px;
-    font-size:larger;
-    font-style:italic;  
-    width: 200px;
+p {
+    font-size:1rem;
+    padding-bottom: 20px;
     text-align: center;
 }
 
-.birthday { 
-    width: 135px;
+h1 {
+    font-size:2em;
+    text-align:center;
+    padding-top:40px;
+    padding-bottom:10px;
+}
+form {
+    background-color:lightsalmon;
+    border-radius:0.5rem;
+    padding: 1rem;
+    margin-top: 20px;
+}
+input {
+    width:100%;
+    font-style:italic;
+    text-align: left;
+}
+
+label {
+    text-align: left;
+    align-content: left;  
 }
