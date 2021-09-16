@@ -36,7 +36,7 @@ form {
     margin-top: 20px;
 }
 input {
-    width:100%;
+    width:fit-content;
     font-style:italic;
     text-align: left;
     margin-bottom:1rem;
@@ -117,3 +117,6 @@ input[type=range]::-webkit-slider-runnable-track {
 
 }
 
+.checkbox-social {
+    display:inline-block;
+}
