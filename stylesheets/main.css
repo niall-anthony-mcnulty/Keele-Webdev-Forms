@@ -9,6 +9,10 @@ body {
     margin:0%;
 }
 
+html, body {
+    width: auto!important; overflow-x: hidden!important
+    }
+
 .container {
     max-width:100%;
 }
