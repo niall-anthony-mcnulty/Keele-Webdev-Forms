@@ -82,18 +82,19 @@ input[type=range] {
     outline: none;
   }
 
-  input[type=range]::-webkit-slider-thumb {
-    border: 1px solid coral;
+  input[type=range]::-webkit-slider-thumb
+  {
     height: 25px;
     width: 25px;
-    border-radius: 100px;
-    background: coral;
+    border-radius: 3px;
+    background-color:transparent;
+    background: url(https://www.pinclipart.com/picdir/big/414-4147474_free-donald-trump-icon-donald-trump-head-icon.png) center center no-repeat;
+    background-size: cover;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -12px;
-    border-color: #ced4da;
-  }
-
+}
+  
 form p  {
     font-size:1.1rem;
     text-align: center;
