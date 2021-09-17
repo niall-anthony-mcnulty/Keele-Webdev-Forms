@@ -88,7 +88,7 @@ input[type=range] {
     width: 25px;
     border-radius: 3px;
     background-color:transparent;
-    background: url(https://www.pinclipart.com/picdir/big/414-4147474_free-donald-trump-icon-donald-trump-head-icon.png) center center no-repeat;
+    background: url(../pictures/trumphead.png) center center no-repeat;
     background-size: cover;
     cursor: pointer;
     -webkit-appearance: none;
