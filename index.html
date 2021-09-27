@@ -20,8 +20,8 @@
                         <p id="description">Thank you for taking this survey</p>
                     </header>
                     <div class='row'>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <form>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+                            <form action='get.php'>
                                 <label id="name-label" for="name">Name</label>
                                 <input type="text" name="name" id="name" class="form-control" placeholder="Enter your Name" required/>
                             
@@ -45,20 +45,20 @@
                                 <input type="range" name="rating" id="rating" class="form-control" required/><br>
 
                                 <p id='form-checkbox'>What is your preferred social media? (Check all that apply)</p>
-                                <div class="checkbox-social"></div>
-                                    <label class="container-checkbox">
-                                        <input type="checkbox">  Facebook
-                                    </label><br>
-                                    <label class="container-checkbox">
-                                        <input type="checkbox">  Twitter
-                                    </label><br>
-                                    <label class="container-checkbox">
-                                        <input type="checkbox">  Tiktok  
-                                    </label><br>
-                                    <label class="container-checkbox">
-                                        <input type="checkbox"> Instagram
-                                    </label><br>
-                                </div>
+                            
+                                <label class="container-checkbox">
+                                <input type="checkbox">  Facebook
+                                </label><br>
+                                <label class="container-checkbox">
+                                <input type="checkbox">  Twitter
+                                </label><br>
+                                <label class="container-checkbox">
+                                <input type="checkbox">  Tiktok  
+                                </label><br>
+                                <label class="container-checkbox">
+                                <input type="checkbox"> Instagram
+                                </label><br><br>
+                                <input type="submit" class='submitbutton'>
                             </form>
                         </div>
                     </div>
