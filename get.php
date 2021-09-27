@@ -32,4 +32,6 @@ if(isset($_GET['socialmedia']))
             echo "instagram was checked!";
       }};
 
+
+header("location: thankyou.html");
 ?>
